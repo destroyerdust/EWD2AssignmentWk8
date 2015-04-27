@@ -1,0 +1,90 @@
+#countdown_dashboard {
+  height: 100px;
+}
+.dash {
+  float: left;
+  position: relative;
+  width: 25%;
+  height: 100px;
+  border-right: 0;
+  text-align: center;
+}
+.digit {
+  position: absolute;
+  width: 100%;
+  font: 600 36px/70px "Open sans", Arial, sans-serif;
+  margin-right: 10px;
+}
+.digits {
+  display: block;
+  position: relative;
+  height: 100px;
+}
+.digit-1 {
+  margin-left: -19px;
+}
+.digit-2 {
+  margin-right: 19px;
+}
+.dash_title {
+  display: block;
+  position: relative;
+  width: 100%;
+  color: #fff;
+  font: 500 10px/30px "Open sans", Helvetica, sans-serif;
+  background: #111;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  text-align: center;
+}
+.tabs {
+  text-align: center;
+  width: 420px;
+  margin-left: auto;
+  margin-right: auto
+}
+.tabs .tab-title {
+  width: 33%;
+}
+
+/* Banner Img */
+.banner-img {
+  width: 60%;
+  height:auto;
+  display:block;
+  margin:auto;
+}
+
+/* Slideshow */
+.slide_show {
+  height:auto;
+  display:block;
+  margin:auto;
+}
+
+.center-contents > a {
+  color: #000000;
+}
+.center-contents {
+  text-align: center;
+}
+
+#banner-wrapper {
+  background-color: #FE230F;
+}
+
+/* Time Center and Style */
+.schedule-time {
+  text-align: right;
+  font-size: large;
+}
+
+.schedule-title {
+  font-weight: bold;
+}
+
+/* Foundation Tab Override */
+.tabs dd > a, .tabs .tab-title > a {
+  background-color: #DDDDDD;
+  font-weight: bold;
+}
